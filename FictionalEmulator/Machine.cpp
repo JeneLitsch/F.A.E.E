@@ -78,6 +78,6 @@ void Machine::setLog(bool b) {
 }
 
 void Machine::printStartLine() {
-	std::cout << "F.A.E.E 8-Bit v" << this->versionMajor << "." << this->versionMinor << "." << this->versionPatch << " @ " << this->clockSpeed/1000.0 << "kHz" << std::endl;
+	std::cout << "F.A.E.E 8-Bit v" << this->versionMajor << "." << this->versionMinor << "." << this->versionPatch << " @ " << this->clockSpeed/1000.0 << "kHz (c)copyright 2020 Jene Litsch" << std::endl;
 }
 
